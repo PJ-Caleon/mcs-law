@@ -11,11 +11,10 @@ import Section6 from "./components/Section6";
 import Section7 from "./components/Section7";
 
 export default function Home() {
-  
 
   return (
     <main className="relative h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
-      <Navbar /> 
+      {<Navbar />}
 
       <div className="pt-12">
         <section id="section1" className="h-screen snap-start"><Section1 /></section>
@@ -27,7 +26,6 @@ export default function Home() {
         <section id="section7" className="h-screen snap-start"><Section7 /></section>
       </div>
 
-      
     </main>
   );
 }
